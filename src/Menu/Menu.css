@@ -1,0 +1,45 @@
+.menu{
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    background: #84a8d8;
+    font-size: 20px;
+    color: white;
+}
+.menu > li{
+    display: inline;
+    cursor: pointer;
+    margin-right: 15px;
+    line-height: 30px;
+
+}
+.menu-active{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+.mobile-menu{
+    list-style-type: none;
+    height: 200px;
+    width:150PX;
+    text-align: left;
+    position: absolute;
+    left:0px;
+    transition: 1s left;
+    background: #84a8d8;
+    top:75px;
+}
+
+.mobile-menu > li{
+    display: block;
+    cursor: pointer;
+    margin-right: 15px;
+    line-height: 30px;
+
+}
+.mobile-menu-button{
+    background: #9c9c8c;
+    right: 0;
+    POSITION: absolute;
+}

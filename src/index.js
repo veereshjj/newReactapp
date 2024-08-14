@@ -1,14 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react';  //imports from node_modules directly
+import ReactDOM from 'react-dom/client'; //imports from node_modules directly
 import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.css' //bootstrap is stored in node_modules. so dont use . or ./ 
+import App from './App'; //the default extension is App.js 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  
     <App />
-  </React.StrictMode>
+ 
 );
 
 // If you want to start measuring performance in your app, pass a function
